@@ -1,0 +1,22 @@
+/* Importar fonte do Material Design */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos do cabeçalho */
+.navbar {
+    border-bottom: 2px solid #1976D2;
+}
+
+/* Estilos dos cards */
+.card {
+    border: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
